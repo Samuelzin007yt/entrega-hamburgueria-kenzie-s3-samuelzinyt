@@ -1,0 +1,28 @@
+.list__main {
+    display: flex;
+    margin-top: 20px;
+    padding: 16px;
+
+    div {
+        display: flex;
+        gap: 15px;
+    }
+
+    h3 {
+        width: 12.875rem;
+    }
+
+    img {
+        background-color: var(--gray-100);
+        width: 6.25rem;
+        height: 5rem;
+    }
+
+    button {
+        color: var(--background-primary);
+        background-color: var(--color-primary);
+        height: 1.75rem;
+        border: none;
+        margin-left: 92px;
+    }
+}

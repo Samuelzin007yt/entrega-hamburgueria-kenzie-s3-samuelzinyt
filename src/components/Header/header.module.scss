@@ -1,0 +1,68 @@
+.header__componet {
+    display: flex;
+    justify-content: center;
+    height: 5.125rem;
+    width: 100%;
+    background-color: var(--gray-0);
+
+    img {
+      margin-left: 115px;
+      height: 2rem;
+      margin-top: 25px;
+    }
+
+  .div__main {
+    display: flex;
+    justify-content: end;
+    margin-right: 250px;
+    width: 100%;
+    gap: 1.25rem;
+
+    button {
+      background-color: var(--gray-0);
+      color: var(--background-primary);
+      border: none;
+
+      span {
+        color: var(--color-primary);
+        background-color: var(--color-secundary);
+        font-size: 1.0625rem;
+        position: relative;
+        bottom: 12px;
+        right: 7px;
+        border-radius: 7px;
+      }
+    }
+  }
+
+  .form {
+    margin-right: 42px;
+    margin-top: 13px;
+
+    input {
+      color: var(--gray-600);
+      height: 1.875rem;
+      width: 15rem;
+      border: 2px solid var(--gray-100);
+      border-radius: 8px;
+      padding: 0.625rem;
+    }
+  }
+
+  .div__button {
+    position: relative;
+    width: 2.5rem;
+    height: 1.875rem;
+    left: 210px;
+    bottom: 41px;
+
+    button {
+      width: 2.5rem;
+      height: 2rem;
+      color: var(--color-primary);
+      background-color: var(--color-secundary);
+      border: 2px;
+      border-radius: 8px;
+    }
+  }
+}
